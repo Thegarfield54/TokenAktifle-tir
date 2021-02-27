@@ -1,5 +1,5 @@
 exports.run = async (client, message) => {
-  if (message.author.id != "420691365777899530") return message.reply('Bunu Yapmak İçin Bir speedygonzales Olmalısın kanks.');
+  if (message.author.id != "SAHİP İD") return message.reply('Bunu Yapmak İçin Bir speedygonzales Olmalısın kanks.');
   if(message.author.bot || message.channel.type === "dm") return;
     if (!message.member.voiceChannel) { return message.channel.send("Zaten Kanalda değilim?"); }
   
